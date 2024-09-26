@@ -53,7 +53,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 10
+  m_Radius: 20
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1010418034720337599
 MonoBehaviour:
@@ -81,6 +81,7 @@ GameObject:
   - component: {fileID: 3199996441291566306}
   - component: {fileID: 2250634456477568313}
   - component: {fileID: 8676758880253446580}
+  - component: {fileID: 5799438174612223602}
   m_Layer: 7
   m_Name: Cube
   m_TagString: EnemyHitBox
@@ -201,3 +202,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &5799438174612223602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6486014764455442637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7525eb2334c31478dd243b4eb2ba1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

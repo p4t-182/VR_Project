@@ -6,11 +6,12 @@ public class ParentDestroy : MonoBehaviour
 {
     private void OnCollisionEnter(Collision other)
     {
-
-        if(transform.parent != null)
+        if(gameObject.transform.parent.gameObject != null)
         {
-            Destroy(gameObject);
+            Destroy(gameObject.transform.parent.gameObject);
         }
+        
+
   
     }
 }
