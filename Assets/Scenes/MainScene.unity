@@ -2055,6 +2055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CustomEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 2411936232357291891, guid: 7f3a8655c7b3b04498d5bcf85aed3487, type: 3}
+      propertyPath: bulletSpeed
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 6268777840224397187, guid: 7f3a8655c7b3b04498d5bcf85aed3487, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.03

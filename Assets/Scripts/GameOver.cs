@@ -7,7 +7,7 @@ public class GameOver : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "EnemyHitBox")
+        if (other.gameObject.tag == "EnemyHitBox" || other.gameObject.tag == "EnemyBullet")
         {
             string currentSceneName = SceneManager.GetActiveScene().name;
             SceneManager.LoadScene(currentSceneName);
