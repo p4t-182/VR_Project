@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6268777840224397187}
   - component: {fileID: 9154936308879512963}
   - component: {fileID: 2411936232357291891}
-  - component: {fileID: 6389041733212938577}
   m_Layer: 7
   m_Name: CustomEnemy
   m_TagString: Untagged
@@ -69,21 +68,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  bulletSpeed: 20
+  bulletSpeed: 1
   interval: 2
   bullet_template: {fileID: 8623408169129946358, guid: 45889a9bc566d094287469434a74354c, type: 3}
---- !u!114 &6389041733212938577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1300951114404446759}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1fa0acef10c88241afb5212a839fc40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7719835921132408963
 GameObject:
   m_ObjectHideFlags: 0

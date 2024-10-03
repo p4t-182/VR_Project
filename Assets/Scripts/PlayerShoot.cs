@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Audio;
 
 public class PlayerShoot : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class PlayerShoot : MonoBehaviour
     public float shootPower = 500f;
 
     public InputActionReference trigger;
+    public AudioClip gunShotSFX;
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +23,7 @@ public class PlayerShoot : MonoBehaviour
     {
         GameObject newBullet = Instantiate(BulletTemplate, transform.position, transform.rotation);
         newBullet.GetComponent<Rigidbody>().AddForce(transform.forward * shootPower);
+
+        GetComponent<AudioSource>().PlayOneShot(gunShotSFX);
     }
 }

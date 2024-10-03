@@ -7,7 +7,7 @@ public class CustomEnemyScript : MonoBehaviour
     [SerializeField]
     private float speed = 10f;
     [SerializeField]
-    private float bulletSpeed = 500f;
+    private float bulletSpeed = 1f;
     [SerializeField]
     private float interval = 2f;
 

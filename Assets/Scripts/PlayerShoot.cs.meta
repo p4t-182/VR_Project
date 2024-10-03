@@ -6,6 +6,7 @@ MonoImporter:
   defaultReferences:
   - BulletTemplate: {fileID: 3485817332754998618, guid: 154d82f77ffa1fd4c976548740d667c8, type: 3}
   - trigger: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - gunShotSFX: {fileID: 8300000, guid: 0ce0fa9c701049544889b14961931176, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
