@@ -6,6 +6,7 @@ public class HitScript : MonoBehaviour
 {
     private void OnCollisionEnter(Collision other)
     {
+        FindObjectOfType<TargetHitSound>().PlaySound();
         Destroy(gameObject);
         Debug.Log("Target " + gameObject.name + " hit!");
     }
