@@ -16,7 +16,7 @@ public class GameOver : MonoBehaviour
     }
     void Update()
     {
-        if (count >= 2)
+        if (count >= 3)
         {
             SceneManager.LoadScene("Scenes/Level2");
         }
