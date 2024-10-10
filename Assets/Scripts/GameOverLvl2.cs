@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour
+public class GameOverLvl2 : MonoBehaviour
 {
     public static int count = 0;
     void Start()
@@ -16,9 +16,10 @@ public class GameOver : MonoBehaviour
     }
     void Update()
     {
-        if (count >= 2)
+        Debug.Log(count);
+        if (count >= 5)
         {
-            SceneManager.LoadScene("Scenes/Level2");
+            SceneManager.LoadScene("Scenes/WinScene");
         }
     }
 
